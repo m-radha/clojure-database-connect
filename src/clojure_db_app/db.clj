@@ -1,6 +1,4 @@
-(ns clojure-db-app.db
-
-  (:require [clojure.java.jdbc :as jdbc]))
+(ns clojure-db-app.db)
 
 (def db-spec
 

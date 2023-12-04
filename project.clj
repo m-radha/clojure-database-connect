@@ -7,6 +7,7 @@
                  [org.clojure/java.jdbc "0.7.11"]
                  [mysql/mysql-connector-java "8.0.23"]
                  [com.h2database/h2 "1.4.200"]
+                 [ring/ring-defaults "0.3.2"] 
                  ]
   :main ^:skip-aot clojure-db-app.core
   :target-path "target/%s"
